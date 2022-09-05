@@ -1,0 +1,20 @@
+{
+  "name": "close",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "close": "bashScript"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "find-process": "^1.4.7",
+    "ps-node": "^0.1.6",
+    "uniqid": "^5.4.0"
+  }
+}

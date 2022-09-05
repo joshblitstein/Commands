@@ -1,0 +1,14 @@
+
+    useEffect(()=>{
+        let sectionsArr = []
+          db.collection('Menu').get().then((snap)=>{
+              snap.forEach((doc)=>{
+                  //console.log(doc.data())
+                  sectionsArr.push(doc.data())
+              })
+            /* console.log(snap.data()) */
+            setSections(sectionsArr)
+      })   
+     
+    }, [products, editMode]) 
+ 
